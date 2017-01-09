@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+>
+
+    <TextView
+        android:id="@+id/txt_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据1"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_below="@id/txt_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_get"
+        android:text="startactivityforresult"/>
+
+
+    <TextView
+        android:id="@+id/txt_display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据2"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_below="@id/txt_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_get2"
+        android:layout_marginTop="20dp"
+        android:text="接口回调"/>
+
+
+
+    <TextView
+        android:id="@+id/txt_display3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据3"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_eventbus"
+        android:layout_marginTop="20dp"
+        android:text="event事件总线"/>
+
+    <TextView
+        android:id="@+id/txt_display4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据4"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"/>
+</LinearLayout>
+

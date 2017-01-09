@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="输入数据"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_msg" />
+
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_msg"
+        android:textSize="16sp"
+        android:layout_below="@id/txt_msg"/>
+    <Button
+        android:layout_below="@id/edit_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_submit"
+        android:text="测试数据1"/>
+
+
+
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_msg2"
+        android:textSize="16sp"
+        android:layout_below="@id/txt_msg"/>
+    <Button
+        android:layout_below="@id/edit_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_submit2"
+        android:text="测试数据2"/>
+
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_msg3"
+        android:textSize="16sp"
+        android:layout_below="@id/txt_msg"/>
+    <Button
+        android:layout_below="@id/edit_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_submit3"
+        android:text="测试数据3"/>
+
+
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_msg4"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_below="@id/txt_msg"/>
+    <Button
+        android:layout_below="@id/edit_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_submit4"
+        android:text="测试数据4"/>
+
+
+</LinearLayout>
